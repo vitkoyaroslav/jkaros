@@ -1,0 +1,1325 @@
+/***************************************************              GENERAL RESET STYLES             ***************************************************/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+* {}
+*:focus {outline: none;}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+ol, ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+		text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+img {
+	border-style:none;
+	max-width:100%;
+}
+form fieldset {
+	margin:0;
+	padding:0;
+	border:none;
+}
+input, textarea, select {
+	vertical-align:middle;
+	color:#000;
+	padding:0;
+}
+input, select {
+	vertical-align:middle;
+}
+input::-webkit-input-placeholder{color:#ebedec;}
+input:focus::-webkit-input-placeholder{color:#ebedec;}
+/*@media*/
+
+/* @media (min-width: 1921px){} 													QHD \ UHD
+@media (min-width: 1600px) and (max-width: 1919px) {}	HD +
+@media (min-width: 1440px) and (max-width: 1599px) {}	macbook
+@media (min-width: 1360px) and (max-width: 1439px) {}	HD
+@media (min-width: 1280px) and (max-width: 1359px) {} IPAD2
+@media (min-width: 1024px) and (max-width: 1279px) {} IPAD
+@media (min-width: 896px) and (max-width: 1023px) {}	Ip Xs max horizontal
+@media (min-width: 812px) and (max-width: 895px) {}		Ip Xs horizontal
+@media (min-width: 768px) and (max-width: 811px) {}		Tablet
+@media (min-width: 736px) and (max-width: 767px) {}		Ip 6,7,8 Plus horizontal
+@media (min-width: 667px) and (max-width: 735px) {}		Ip 6,7,8 horizontal
+@media (min-width: 568px) and (max-width: 666px) {}		Ip 5 horizontal
+@media (min-width: 480px) and (max-width: 567px) {}		Ip 4 horizontal
+@media (min-width: 414px) and (max-width: 479px) {}		Ip 6,7,8
+@media (min-width: 320px) and (max-width: 413px) {}		Ip 4,5 */
+
+/*@media end*/
+
+/* wrapper */
+#wrapper {
+	display:block;
+	position:relative;
+	width:100%;
+	height:100%;
+}
+.layout {
+	margin:0 auto;
+	position:relative;
+	width:960px;
+}
+
+main {
+	display:block;
+	width:100%;
+	position: relative;
+	border-color: #fdfdfd;
+	border-top: 1px solid #000000;
+}
+header {
+	width:100%;
+	height: 91px;
+	display:block;
+	position:relative;
+	background: #3a3d40;
+	border-bottom: 3px solid #4a4d50;
+}
+
+.logo{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	border: 0;
+    margin: 0;
+	float: left;
+	}
+
+.logo h1{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	width: 90px;
+ 	height: 32px;
+	} 
+
+.logo h1 a{
+ 	display: inline-block;
+ 	text-decoration: none;
+ 	width: 90px;
+ 	height: 32px;
+	} 
+
+.logo h1 a img{
+ 	display:  block;
+ 	width: 100%;
+ 	height: 100%;
+	} 
+
+nav{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 538px;
+	height: 91px;
+	float: right;
+	margin: 0 0 0 0;
+}
+
+nav ul{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 538px;
+	height: 94px;
+	margin: 0 0 0 0;
+	border-left: 1px solid #424547;
+	border-right: 1px solid #292c2e;
+}
+
+nav ul li {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 94px;
+	margin: 0 0 0 -4px;
+	border-left: 1px solid #424547;
+	border-right: 1px solid #292c2e;
+}
+
+nav ul li:first-child{
+	border-left: 1px solid #292c2e;
+	margin: 0 0 0 0;
+	width: 72px;
+}
+nav ul li:nth-child(2){
+	width: 88px;
+}
+nav ul li:nth-child(3){
+	width: 104px;
+}
+nav ul li:nth-child(4){
+	width: 80px;
+}
+nav ul li:nth-child(5){
+	width: 68px;
+}
+nav ul li:last-child{
+	width: 92px;
+}
+
+nav ul li a{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	width: 100%;
+	height: 94px;
+}
+
+nav ul li a:hover{
+	background-color: #35383a;
+}
+
+nav ul li a:active{
+	background-color: #555744;
+}
+
+nav ul li a span{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 14px;
+	color: #d4d4d4;
+	font-family: Aller;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 80px;
+	text-transform: uppercase;
+	letter-spacing: 0.12px;
+}
+
+nav ul li a span:hover{
+	color: #7a9db2;
+}
+
+nav ul li a span:active{
+	 color: #8dc63f;
+}
+
+.content {
+	display: block;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    background-color: #fdfdfd;
+    border-top: 1px solid #000000;
+	}
+
+.top-banner{
+	display: block;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.top-banner img{
+	display: block;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+	}
+
+.top-banner .left_button{
+	display: inline-block;
+    overflow: hidden;
+	position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    vertical-align: middle;
+    margin-left: 30px;
+    z-index: 2;
+}
+
+.Our_services{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+	}
+
+.Our_services h3{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    color: #555555;
+	font-family: Aller;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	}
+
+.Our_services p{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 22px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	}
+
+.tabs_chapter{
+	margin: 36px auto 0;
+  	width: 100%;
+	display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.tabs_chapter .tabs{
+  	width: 100%;
+	display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px solid #c5c5c5;
+	}
+
+.tabs_chapter .tabs a{
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 -2px 0 -2px;
+	width: 118px;
+	height: 32px;
+	background-color: #f8f8f8;
+	border: 1px solid #c5c5c5;
+	border-right: none;
+	border-bottom: none;
+}
+.tabs_chapter .tabs a:nth-child(3){
+	border-right: 1px solid #c5c5c5;
+}
+
+.tabs_chapter .tabs a:active{
+	background-color: #fdfdfd;
+}
+
+.tabs_chapter .tabs a span:active{
+	color: #6b99b6;
+}
+	
+.tabs_chapter .tabs a span{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px;
+	text-align: center;
+	color: #555555;
+	font-family: Aller;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 0.13px;
+	line-height: 14px;
+	}
+
+.tabs_chapter .tabs .in_tabs{
+	position: relative;
+	}
+
+.tabs_chapter .tabs .in_tabs article{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;	
+	}
+
+.red_tile {
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+	}
+
+.red_tile .left_half{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 50px 0;
+    width: 44%;
+}
+
+.red_tile .left_half img{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    width: 400px;
+    height: 300px;
+}
+
+ .red_tile .right_half{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    vertical-align: top;
+    width: 55%;
+    margin: 0 0 50px 0;
+}
+
+.red_tile .right_half h4{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 16px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 17px;
+	font-weight: 700; 
+}
+
+.red_tile .right_half p{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 528px;
+	color: #555555;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px; 
+}
+
+.red_tile .right_half span{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 530px;
+	color: #555555;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px; 
+}
+
+.red_tile .right_half ul{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 34px;
+    width: 100%;
+}
+
+.red_tile .right_half ul li{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+     width: 100%;
+}
+
+.red_tile .right_half ul li img{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 4px;
+    width: 12px;
+    height: 14px;
+}
+
+.red_tile .right_half ul li p{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 310px;
+	color: #555555;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 14px;
+}
+
+.latest_staff {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 48px;	
+}
+
+.latest_staff .latest_staff_text{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	}
+
+.latest_staff .latest_staff_text h3{
+	display: block;
+    position: relative;
+    overflow: hidden;
+   color: #555555;
+	font-family: Aller;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	}
+
+.latest_staff .latest_staff_text p{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	}
+
+.latest_staff .six_tiles{
+	margin: 30px auto 0;
+  	width: 100%;
+  	height: 562px;
+	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: nowrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: baseline;
+  	}
+
+.latest_staff .six_tiles ul{
+	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: baseline;
+  	}
+
+.latest_staff .six_tiles ul li{
+  	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: flex-start;
+  	}
+
+.latest_staff .six_tiles ul li:first-child{
+	margin-top: 0;
+	margin-left: 0;
+	}
+
+.latest_staff .six_tiles ul li:nth-child(3){
+	margin-right: 0;
+	}
+
+.latest_staff .six_tiles ul li:nth-child(4){
+	margin-top: 12px;
+	margin-left: 0;
+	}
+
+.latest_staff .six_tiles ul li:nth-child(6){
+	margin-right: 0;
+	}
+
+.latest_staff .six_tiles ul li img{}
+
+.latest_blog {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+	}
+	
+.latest_blog .latest_blog_text {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+	}
+.latest_blog .latest_blog_text h3{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    color: #555555;
+	font-family: Aller;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 32px;
+	text-align: center;
+	}
+
+.latest_blog .latest_blog_text p{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	}
+
+.latest_blog .four_blocks{
+	margin: 24px auto 46px;
+  	width: 100%;
+	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: nowrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: baseline;
+  	}
+
+.latest_blog .four_blocks ul{
+	display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: baseline;
+  	}
+
+.latest_blog .four_blocks ul li{
+  	display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 480px;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: flex-start;
+  	}
+
+.latest_blog .four_blocks ul li:first-child{
+	margin-top: 0;
+	margin-left: 0;
+	}
+
+.latest_blog .four_blocks ul li:nth-child(3){
+	margin-top: 42px;	
+	}
+
+.latest_blog .four_blocks ul li:nth-child(4){
+	margin-top: 42px;
+	}
+  	
+.latest_blog .four_blocks ul li .circle{
+  	display: inline-block;
+  	position: relative;
+  	overflow: hidden;
+  	width: 55px;
+  	height: 55px;
+  	border-radius: 50%;
+  	text-align: center;
+ 	vertical-align: middle;
+  	background:  #ececec;
+  	}
+
+.latest_blog .four_blocks ul li .circle .day{
+	display: block;
+	position: relative;
+  	overflow: hidden;
+  	margin-top: 8px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 22px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.22px;
+  	}
+
+.latest_blog .four_blocks ul li .circle .mth{
+	display: block;
+	position: relative;
+  	overflow: hidden;
+	color: #555555;
+	font-family: Aller;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.14px;
+  	}
+
+.latest_blog .four_blocks ul li .text_after_circle{
+  	display: inline-block;
+  	margin-left: 12px;
+  	width: 80%;
+  	position: relative;
+  	overflow: hidden;
+  	}
+
+.latest_blog .four_blocks ul li .text_after_circle h4{
+	display: block;
+  	position: relative;
+  	overflow: hidden;
+  	float: left;
+	color: #555555;
+	font-family: Aller;
+	font-size: 17px;
+	font-weight: 700;
+  	}
+  	
+.latest_blog .four_blocks ul li .text_after_circle p{
+	display: block;
+  	position: relative;
+  	overflow: hidden;
+  	margin-top: 10px;
+  	float: left;
+	color: #555555;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+  	}
+
+.latest_blog .four_blocks ul li .text_after_circle a{
+	display: block;
+  	position: relative;
+  	overflow: hidden;
+  	margin-top: 12px;
+  	float: left;
+  	}
+  	
+.latest_blog .four_blocks ul li .text_after_circle a span{
+	display: block;
+  	position: relative;
+  	overflow: hidden;
+	color: #6b99b6;
+	font-family: "Droid Sans";
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 20px;
+  	}
+
+
+.Our_customers {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+	}
+
+.Our_customers h3{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    color: #555555;
+	font-family: Aller;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: center;
+	}
+
+.Our_customers p{
+	display: block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 24px;
+	color: #555555;
+	font-family: Aller;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+	}
+
+.logotypes {
+	display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 86px;
+	}
+
+.logotypes ul {
+	margin: 74px auto 0;
+  	width: 100%;
+	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: center;
+  }
+
+.logotypes ul li{
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+	}
+
+.logotypes ul li img{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	 margin: 0 auto 0;
+	}
+
+.banner_up_footer {
+	width:100%;
+	height: 390px;
+	display: flex;
+	position: relative;
+	overflow: hidden;
+	flex-wrap: nowrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+	background: #3a3d40;
+	border-top: 5px solid #2f3236;
+	}
+
+.banner_up_footer ul{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+    flex-wrap: nowrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	width: 100%;
+  	height: 390px;
+	}
+
+.banner_up_footer ul li{
+	display: inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 226px;
+  	height: 330px;
+  	margin-top: 32px;
+  	margin-right: 14px;
+	}
+
+.banner_up_footer ul li:last-child{
+	margin-right: 0;
+	}
+
+.banner_up_footer ul li h4{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	color: #e3e3e3;
+	font-family: Aller;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 28px;
+	}
+
+.banner_up_footer ul li .Vivamus p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+.banner_up_footer ul li .Vivamus a{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+	}
+
+.banner_up_footer ul li .Vivamus a span{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	height: 10px;
+	color: #899096;
+	font-family: "Droid Sans";
+	font-size: 11px;
+	font-weight: 400;
+	}
+
+.banner_up_footer ul li .Vivamus img{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 16px;
+  	width: 100%;
+  	height: 3px;
+	}
+
+.banner_up_footer ul li .Scelerisque p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+.banner_up_footer ul li .Scelerisque a{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+	}
+
+.banner_up_footer ul li .Scelerisque a span{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	height: 10px;
+	color: #899096;
+	font-family: "Droid Sans";
+	font-size: 11px;
+	font-weight: 400;
+	}
+
+.banner_up_footer ul li .Scelerisque img{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 16px;
+  	width: 100%;
+  	height: 3px;
+	}
+
+.banner_up_footer ul li .Pellentesque p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+.banner_up_footer ul li .Pellentesque a{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+	}
+
+.banner_up_footer ul li .Pellentesque a span{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	height: 10px;
+	color: #899096;
+	font-family: "Droid Sans";
+	font-size: 11px;
+	font-weight: 400;
+	}
+
+.banner_up_footer ul li .Praesent {
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 220px;
+	}
+
+.banner_up_footer ul li .Praesent .twitter {
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 220px;
+	}
+
+.banner_up_footer ul li .Praesent .twitter img{
+	display:  inline-block;
+    position: absolute;
+    overflow: hidden;
+  	width: 16px;
+  	height: 12px;
+  	margin-top: 4px;	
+	}
+	
+.banner_up_footer ul li .Praesent p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+	.banner_up_footer ul li .Praesent p:first-letter{
+	margin-left: 28px;
+	}
+
+.banner_up_footer ul li .Praesent p span{
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #86acc4;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+.banner_up_footer ul li .Praesent img{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	width: 220px;
+	height: 1px;
+	margin-top: 18px;
+	}
+
+.banner_up_footer ul li .Vestibulum .twitter {
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 220px;
+  	height: 74px;
+  	margin-top: 20px;
+	}
+
+.banner_up_footer ul li .Vestibulum .twitter img{
+	display:  inline-block;
+    position: absolute;
+    overflow: hidden;
+  	width: 16px;
+  	height: 12px;
+  	margin-top: 4px;	
+	}
+	
+.banner_up_footer ul li .Vestibulum p{
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 0;
+	}
+
+.banner_up_footer ul li .Vestibulum p:first-letter{
+	margin-left: 28px;
+	}
+
+.banner_up_footer ul li .Vestibulum p span{
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #86acc4;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+
+.banner_up_footer ul li .Vestibulum img{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+	width: 220px;
+	height: 1px;
+	margin-top: 18px;
+	}
+
+.banner_up_footer ul li .Donec {
+	display:  inline-block;
+    position: relative;
+    overflow: hidden;
+  	width: 220px;
+  	height: 74px;
+  	margin-top: 20px;
+	}
+
+.banner_up_footer ul li .Donec img{
+	display:  inline-block;
+    position: absolute;
+    overflow: hidden;
+  	width: 16px;
+  	height: 12px;
+  	margin-top: 4px;	
+	}
+	
+.banner_up_footer ul li .Donec p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 0;
+	}
+	
+.banner_up_footer ul li .Donec p:first-letter{
+	margin-left: 28px;
+	}
+
+.banner_up_footer ul li .Donec p span{
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #86acc4;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	}
+	 
+.banner_up_footer ul li .Lorem_ipsum p{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 0;
+	}
+	
+.banner_up_footer ul li .Lorem_ipsum  span{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	margin-top: 36px;
+	}
+
+.banner_up_footer ul li form{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+  	height: 330px;
+	}
+
+.banner_up_footer ul li form {
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  100%;
+  	height: 330px;
+	}
+	
+.banner_up_footer ul li form input{
+	display:  block;
+    position: relative;
+    overflow: hidden;
+  	width:  218px;
+  	height: 34px;
+  	border: none;
+  	background-color: #282b2d;
+  	margin-top: 0;
+  	margin-bottom: 10px;
+  	padding-left: 10px;
+  	color: #e3e3e3;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 12px;
+	letter-spacing: 0.22px;
+	}
+
+.banner_up_footer ul li form textarea{
+  	display:  block;
+    position: relative;
+    overflow: hidden;
+    resize: none;
+  	width:  206px;
+  	height:130px;
+  	border: none;
+  	background-color: #282b2d;
+  	margin-top: 0;
+  	margin-bottom: 10px;
+  	padding: 10px;
+  	color: #e3e3e3;
+	font-size: 12px;
+	font-weight: 200;
+	line-height: 12px;
+	letter-spacing: 0.22px;
+	}
+
+.banner_up_footer ul li form button{
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 110px;
+	height: 28px;
+	border: none;
+	border-radius: 4px;
+	background-color: #638194;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.22);
+	color: #ffffff;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25px;
+	}
+
+.banner_up_footer ul li form button:hover{ 
+   	background-color: #7390a3;
+	}
+
+.banner_up_footer ul li form button:active {
+  	box-shadow: 0 3px 0 #00823F;
+  	top: 3px;
+ 	 }
+
+footer {
+	display:block;
+	width:100%;
+	height: 72px;
+	display:block;
+	position:relative;
+	background: #2f3235;
+	border-top: 1px solid #24272a;
+	}
+
+.footer_text p {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	float: left;
+	color: #bfbfbf;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	}
+
+ .footer_text a{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	top: 30px;
+	left: 6px;
+	float: left;
+	color: #86acc4;
+	font-family: "Droid Sans";
+	font-size: 13px;
+	font-weight: 400;
+	}
+
+.footer_text a:hover{
+	text-decoration: underline;
+	}
+
+.icons{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 180px;
+	float: right;
+	margin-top: 24px;
+}
+
+.icons ul{
+	display: flex;
+    position: relative;
+    overflow: hidden;
+  	flex-wrap: wrap;
+  	flex-direction:row;
+  	justify-content: space-between;
+  	align-items: baseline;
+	width: 180px;
+	float: right;
+}
+
+.icons ul li {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	float: right;
+}
+
+.icons ul li a{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
+
+.icons ul li a:hover{
+	 opacity: 0.6;
+}
+
+.icons ul li a img{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+}
